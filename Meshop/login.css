@@ -1,0 +1,76 @@
+/* Navbar section */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 6px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+h2{
+    color: white;
+    list-style-type: none;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0px -38px;
+}
+header ul{
+    position: relative;
+    display: flex;
+}
+header ul li{
+    list-style-type: none;
+}
+
+header ul li a{
+    display: inline-block;
+    font-weight: 400;
+    text-decoration: none;
+    margin: 3px 12px;
+    color:  white;
+    font-weight: 300;
+}
+
+/* Mid - Section */
+
+h1{
+    font-weight: 500;
+    font-size: 28px;
+    margin: 65px 20px;
+    line-height: 34px;
+}
+
+#email{
+    width: 90%;
+    height: 30px;
+    margin: 0px 20px;
+}
+#password{
+    width: 90%;
+    height: 30px;
+    margin: 0px 20px;
+}
+
+#btn{
+    background-color: black;
+    color: white;
+    width: 115px;
+    height: 34px;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 2px 20px;
+    border: 1px solid black;
+}

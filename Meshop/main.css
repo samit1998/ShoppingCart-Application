@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+}
+
+    /* header or navbar section */
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 6px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+h2{
+    color: white;
+    list-style-type: none;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0px -38px;
+}
+header ul{
+    position: relative;
+    display: flex;
+}
+header ul li{
+    list-style-type: none;
+}
+
+header ul li a{
+    display: inline-block;
+    font-weight: 400;
+    text-decoration: none;
+    margin: 3px 12px;
+    color:  white;
+    font-weight: 300;
+}
+
+
+  /* mid-section */
+
+.mid-section{
+    margin: 55px;
+}
+
+.mid-section h1{
+    font-weight: 400;
+    line-height: 60px;
+    font-size: 40px;
+    margin: 2px 2px;
+  }
+
+  .mid-section p{
+    line-height: 85px;
+    font-weight: 400;
+    font-size: 20px;
+  }
+
+  #login-btn{
+    width: 120px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    margin-right: 15px;
+    font-size: 15px;
+  }
+
+  #signup-btn{
+    width: 120px;
+    height: 40px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    margin-left: 50px;
+    font-size: 15px;
+  }
+
+  .mid-section img{
+    width: 1000px;
+    height: 500px;
+    margin: -50px 325px;
+  }
+
+  

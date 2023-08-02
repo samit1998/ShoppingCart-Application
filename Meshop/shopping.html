@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shopping page</title>
+    <link rel="stylesheet" href="./shopping.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="navbar">
+        <header>
+            <h2>MeShop.</h2>
+            <ul>
+              <li><a href="main.html">Home</a></li>
+              <li><a href="login.html">Login</a></li>
+              <li><a href="signup.html">Signup</a></li>
+              <li><a href="mycart.html">My Cart</a></li>
+              <li><a href="./profile.html">Profile</a></li>
+            </ul>
+        </header>
+    </section>
+
+    <div class="sidebar">
+        <h2 id="filt">Filters</h2><br>
+        <hr>
+        <h3 id="colour">Colors</h3>
+        <label><input type="checkbox" name="color" value="red"> Red</label>
+        <label><input type="checkbox" name="color" value="blue"> Blue</label>
+        <label><input type="checkbox" name="color" value="green"> Green</label>
+        <label><input type="checkbox" name="color" value="black"> Black</label>
+        <label><input type="checkbox" name="color" value="white"> White</label><hr>
+      
+        <h3 id="sizee">Sizes</h3>
+        <label><input type="checkbox" name="size" value="s"> S</label>
+        <label><input type="checkbox" name="size" value="m"> M</label>
+        <label><input type="checkbox" name="size" value="l"> L</label>
+        <label><input type="checkbox" name="size" value="xl"> XL</label><hr>
+      
+        <div class="rating-section">
+            <h3 id="ratin">Rating</h3>
+            <label for="rating-range"></label>
+            <input type="range" id="rating-range" name="rating" min="0" max=" 5" step="1">
+            <div class="rating-labels">
+              <span id="span1">0 </span>
+              <span id="span2"> 5</span>
+            </div>
+          </div><hr>
+      
+        <div class="price-section">
+            <h3>Price</h3>
+            <label><input type="checkbox" value="0-25"> 0$ to 25$</label>
+            <label><input type="checkbox" value="25-50"> 25$ to 50$</label>
+            <label><input type="checkbox" value="50-100"> 50$ to 100$</label>
+            <label><input type="checkbox" value="100+"> 100$ onwards</label>
+          </div>
+      
+        <button type="submit">Apply Filter</button>
+      </div>
+      <div class="searchBar">
+        <img src="./img/search-bar.png" alt="logo">
+        <input type="text" id="sch" placeholder="Search">
+      </div>
+      
+      <div class="shop-section">
+        <h4>All</h4>
+        <h4>Mens</h4>
+        <h4>Womens</h4>
+        <h4>Jewellery</h4>
+        <h4>Electronics</h4>
+      </div>
+      <h3 id="main-head">Men's Clothing</h3>
+
+      <div class="card-container">
+        <div>
+        <div class="cards">
+          <img src="./img/image 1.png" alt="Product 2" id="shirt">
+          <div class="product-details"><br>
+            <div id="c1">
+            <span id="rs" class="price">$50</span>
+            <span class="size">S, M, L</span>
+            </div>
+            <div class="colors">
+              <span>Colours:</span>
+              <span class="dot1"></span>
+              <span class="dot2"></span>
+              <span class="dot3"></span>
+              <span class="dot"></span>
+            </div>
+            <div class="rating">
+              <span>Rating:</span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+            </div>
+            <button type="submit" id="cart-btn">Add To Cart</button>
+          </div>
+        </div>
+      </div>
+          
+
+      <div>
+        <div class="cards">
+          <img src="./img/image 1.png" alt="Product 2" id="shirt">
+          <div class="product-details"><br>
+            <div id="c2">
+            <span id="rs" class="price">$25</span>
+            <span class="size">S, L, XL</span>
+          </div>
+            <div class="colors">
+              <span>Colours:</span>
+              <span class="dot1"></span>
+              <span class="dot2"></span>
+              <span class="dot3"></span>
+            </div>
+            <div class="rating">
+              <span>Rating:</span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </div>
+            <button type="submit" id="cart-btn1">Add To Cart</button>
+          </div>
+        </div>
+      </div>
+
+
+
+       <div>
+        <div class="cards">
+          <img src="./img/image 1.png" alt="Product 3" id="shirt">
+          <div class="product-details"><br>
+            <div id="c3">
+            <span id="rs" class="price">$100</span>
+            <span class="size">S, M, L</span>
+          </div>
+            <div class="colors">
+              <span>Colours:</span>
+              <span class="dot1"></span>
+              <span class="dot2"></span>
+              <span class="dot3"></span>
+            </div>
+            <div class="rating">
+              <span>Rating:</span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </div>
+            <button type="submit" id="cart-btn2">Add To Cart</button>
+          </div>
+        </div>
+      </div>
+
+
+      <div>
+        <div class="cards">
+          <img src="./img/image 1.png" alt="Product 4" id="shirt">
+          <div class="product-details"><br>
+            <div id="c2">
+            <span id="rs" class="price">$25</span>
+            <span class="size">S, M</span>
+          </div>
+            <div class="colors">
+              <span>Colours:</span>
+              <span class="dot1"></span>
+              <span class="dot2"></span>
+              <span class="dot3"></span>
+            </div>
+            <div class="rating">
+              <span>Rating:</span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </div>
+            <button type="submit" id="cart-btn3">Add To Cart</button>
+          </div>
+        </div>
+      </div>
+
+      <div id="women">
+        <p>Women's Clothing</p>
+      </div>
+        <script src="./script.js"></script>
+</body>
+</html>
